@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script src="index.js" defer></script>
+
+    <title>tic tac toe</title>
+</head>
+<body  class="bg-gray-900 flex flex-col items-center justify-center min-h-screen text-center">
+    <div class="bg-white text-gray-800 p-8 space-y-4 shadow rounded-xl max-w-md md:max-w-lg w-full h-screen mb-8">
+        <h2 class="text-2xl font-bold text-center mb-4">Game starts on click<br>First Player is X <br>Second Player is Y</h2>
+       <div class="ui grid grid-cols-3 gap-2 justify-center mx-auto">
+            <div id="b1" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+            <div id="b2" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+            <div id="b3" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+            <div id="b4" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+            <div id="b5" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+            <div id="b6" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+            <div id="b7" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+            <div id="b8" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+            <div id="b9" class="cell h-24 w-24 md:h-32 md:w-32 bg-gray-200 flex items-center justify-center rounded-lg cursor-pointer hover:bg-gray-300 transition-colors"></div>
+        </div> 
+        <br><br><br> 
+        
+        <button id="but" class="new-game hover:bg-blue-600">RESET</button> 
+        <br><br> 
+        <p id="print"></p> 
+</body>
+</html>
